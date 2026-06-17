@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakash Singh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+    <h2>Prakash Singh</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>Hello, I'm Prakash 👋</h1>
+    <p>Data Analyst | Web Developer | Python Learner</p>
+
+    <div class="buttons">
+        <a href="https://github.com/" target="_blank" class="btn">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" class="btn">LinkedIn</a>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate learner from Nepal focused on Data Analytics, Web Development,
+        and Cloud Computing. I enjoy building real-world projects and improving my technical skills daily.
+    </p>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section">
+    <h2>Skills</h2>
+
+    <div class="grid">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript (Basic)</div>
+        <div class="card">Excel</div>
+        <div class="card">Data Analytics</div>
+        <div class="card">AWS Cloud Basics</div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="grid">
+
+        <div class="project-card">
+            <h3>Stock Market Prediction</h3>
+            <p>Analyzed stock data using data analytics techniques to identify trends.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>HTML Portfolio Practice</h3>
+            <p>Built multiple mini websites using only HTML for practice.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Excel Data Entry System</h3>
+            <p>Created structured Excel sheets for data management and entry tasks.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: prakash@example.com</p>
+    <p>Location: Kathmandu, Nepal</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Prakash Singh | Built with HTML, CSS & JS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
